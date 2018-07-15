@@ -20,7 +20,7 @@ class App < Sinatra::Base
       @heroname3 = params[:hero][2][:name]
       @heropower3 = params[:hero][2][:power]
       binding.pry
-      @herobio13 = params[:hero][2][:biography]
+      @herobio3 = params[:hero][2][:biography]
 
       erb :team
     end
