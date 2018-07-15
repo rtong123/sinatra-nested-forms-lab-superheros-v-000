@@ -14,7 +14,6 @@ class App < Sinatra::Base
       @heroname1 = params[:hero][0][:name]
       @heropower1 = params[:hero][0][:power]
       @herobio1 = params[:hero][0][:biography]
-
       @heroname2 = params[:hero][1][:name]
       @heropower2 = params[:hero][1][:power]
       @herobio2 = params[:hero][1][:biography]
