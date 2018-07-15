@@ -19,7 +19,6 @@ class App < Sinatra::Base
       @herobio2 = params[:hero][1][:biography]
       @heroname3 = params[:hero][2][:name]
       @heropower3 = params[:hero][2][:power]
-      binding.pry
       @herobio3 = params[:hero][2][:biography]
 
       erb :team
